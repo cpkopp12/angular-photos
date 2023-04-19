@@ -1,1 +1,6 @@
-<p>show-photos works!</p>
+
+<img *ngIf="photoUrl" [src]="photoUrl" />
+
+<div>
+    <button (click)="onClick()">Fetch New Image</button>
+</div>
